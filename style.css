@@ -239,17 +239,28 @@ main .form-contact form textarea {
   margin-block-end: 14px;
 }
 
+main .form-contact form select {
+  padding: 10px;
+}
+
 main .form-contact form label {
   margin-block-end: 4px;
 }
 
+main .form-contact form input[type='text'] {
+  padding: 10px;
+  font-size: 1rem;
+}
+
 main .form-contact form textarea {
   resize: none;
+  padding: 10px;
 }
 
 main .form-contact form input[type='submit'] {
   align-self: flex-end;
   width: 100px;
+  padding: 10px;
 }
 
 /* Le pied de page */

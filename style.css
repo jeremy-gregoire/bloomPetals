@@ -217,13 +217,39 @@ main .about-team div img {
 }
 
 /* Le formulaire de contact */
+main .form-contact {
+  width: 50%;
+  margin: auto;
+}
+
+main .form-contact h1 {
+  text-align: center;
+  font-weight: 600;
+  margin: 14px;
+}
+
 main .form-contact form {
   display: flex;
   flex-direction: column;
 }
 
-main .form-contact form > *:not(:last-child) {
+main .form-contact form input,
+main .form-contact form select,
+main .form-contact form textarea {
   margin-block-end: 14px;
+}
+
+main .form-contact form label {
+  margin-block-end: 4px;
+}
+
+main .form-contact form textarea {
+  resize: none;
+}
+
+main .form-contact form input[type='submit'] {
+  align-self: flex-end;
+  width: 100px;
 }
 
 /* Le pied de page */

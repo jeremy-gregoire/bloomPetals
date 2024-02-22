@@ -263,6 +263,16 @@ main .form-contact form input[type='submit'] {
   padding: 10px;
 }
 
+/* La galerie de fleur */
+main section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+main section img {
+  width: 100%;
+}
+
 /* Le pied de page */
 footer {
   background-color: hsl(220, 6%, 48%);
